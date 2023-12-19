@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_DDT_Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>adcf0e6d-cca6-43cc-ae3b-8cd519db9273</testSuiteGuid>
+   <testCaseLink>
+      <guid>c99caa0d-6d10-4064-b770-103ec054960e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Login with valid credential w- Variable</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fe4b0e19-02f8-42ca-9277-9fd3bb871947</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataKatalon/LoginData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71aa21df-5263-4d1c-81a4-e08ed6fa310f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fe4b0e19-02f8-42ca-9277-9fd3bb871947</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>048e9a38-e6f5-4c1b-898b-0c5ee20897d8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fe4b0e19-02f8-42ca-9277-9fd3bb871947</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>38f5d4ce-ef83-4fd6-8649-184feffd5fb6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
