@@ -19,3 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.kode.id')
 
+WebUI.waitForElementVisible(findTestObject(null), 0)
+
+WebUI.click(findTestObject(null))
+
